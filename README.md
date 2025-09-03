@@ -1,107 +1,70 @@
-##Movie Recommendation System
-#Overview
+# Movie Recommendation System
 
-This project implements a simple Movie Recommendation System using two approaches:
+## Overview
 
-Collaborative Filtering (CF) – Recommends movies based on similarities between users' ratings.
+This project implements a simple **Movie Recommendation System** using two approaches:
 
-Content-Based Filtering (CBF) – Recommends movies based on similarity of movie genres.
+1. **Collaborative Filtering (CF)** – Recommends movies based on similarities between users' ratings.
+2. **Content-Based Filtering (CBF)** – Recommends movies based on similarity of movie genres.
 
 The dataset contains user ratings for movies, and movie metadata including genres.
 
-Dataset
+---
 
-File: movies.csv
+## Dataset
 
-Columns:
+* **File**: `movies.csv`
+* **Columns**:
 
-user_id – ID of the user
+  * `user_id` – ID of the user
+  * `movie_title` – Name of the movie
+  * `rating` – User rating for the movie (numeric)
+  * `genre` – Genres of the movie, separated by `|`
 
-movie_title – Name of the movie
+**Note:** The `genre` column was added to accommodate content-based filtering. Some movies were also added to the dataset to ensure a variety of recommendations.
 
-rating – User rating for the movie (numeric)
+---
 
-genre – Genres of the movie, separated by |
+## Requirements
 
-Note: The genre column was added to accommodate content-based filtering. Some movies were also added to the dataset to ensure a variety of recommendations.
-
-Requirements
-
-Python 3.x
-
-pandas
-
-numpy
-
-scikit-learn
+* Python 3.x
+* pandas
+* numpy
+* scikit-learn
 
 Install dependencies using:
 
+```bash
 pip install pandas numpy scikit-learn
+```
 
-How to Run
+---
 
-Place the dataset movies.csv in the same directory as the script.
+## How to Run
 
-Run the script:
+1. Place the dataset `movies.csv` in the same directory as the script.
+2. Run the script:
 
-python script.py
+```bash
+python main.py
+```
 
+3. Enter a `user_id` when prompted to get movie recommendations.
 
-Enter a user_id when prompted to get movie recommendations.
+---
 
-Functionality
+## Functionality
 
-Collaborative Filtering (CF)
+1. **Collaborative Filtering (CF)**
 
-Creates a user-item rating matrix.
+   * Creates a user-item rating matrix.
+   * Computes similarity between users using **cosine similarity**.
+   * Recommends movies that similar users rated highly.
 
-Computes similarity between users using cosine similarity.
+2. **Content-Based Filtering (CBF)**
 
-Recommends movies that similar users rated highly.
+   * Converts movie genres into a feature matrix.
+   * Computes similarity between movies based on genres.
+   * Recommends movies similar to those the user rated highly (rating ≥ 4).
 
-Content-Based Filtering (CBF)
-
-Converts movie genres into a feature matrix.
-
-Computes similarity between movies based on genres.
-
-Recommends movies similar to those the user rated highly (rating ≥ 4).
-
-Note: CBF may not recommend movies if the user has not rated any movies highly, as seen with some users in testing.
-
-Observations
-
-CF tends to provide recommendations even for users with few ratings.
-
-CBF is dependent on user-rated movies and metadata; without sufficient data, it may fail to recommend.
-
-Adding the genre column was necessary to make CBF work properly.
-
-Limitations & Challenges
-
-Cold-start problem for new users or movies with no ratings.
-
-Sparse user-item matrix can limit CF performance.
-
-CBF recommendations depend heavily on movie metadata quality.
-
-Results
-
-The following screenshots show sample recommendations for different users:
-
-User 5
-
-
-User 19
-
-
-User 9
-
-
-Conclusion
-
-The system demonstrates two complementary recommendation approaches. CF is more reliable for users with sufficient ratings, while CBF allows recommendations based on movie features, which is useful for new items or when ratings are sparse.
-
-If you want, I can also write a short caption under each screenshot summarizing the recommendations, so
-
+**Note:** CBF may not recommend movies if the user has not rated any movies highly, as seen with some users in te
