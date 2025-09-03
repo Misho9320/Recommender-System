@@ -1,0 +1,41 @@
+﻿user_id;movie_title;rating ;genre
+1;Toy  Story ;5;Adventure|Animation|Children|Comedy|Fantasy
+1;Jumanji;3;Action|Adventure|Comedy|Fantasy
+2;Toy  Story ;4;Adventure|Animation|Children|Comedy|Fantasy
+2;Grumpier Old Men ;5;Comedy|Romance
+3;Jumanji;4;Action|Adventure|Comedy|Fantasy
+3;After;5;Drama|Romance|Thriller
+3;All My Friends Hate Me;3;Comedy|Horror
+4;Love Don't Cost a Thing;4;Drama|Romance
+5;Now You See Me;5;Crime|Mystery|Thriller
+5;Pirates of the Caribbean: The Curse of the Black Pearl;5;Action|Adventure|Comedy|Fantasy
+6;Suicide Squad: Hell to Pay;4;Action|Animation
+7;Toy  Story ;3;Adventure|Animation|Children|Comedy|Fantasy
+7;The Kissing Booth;4;Comedy|Romance
+7;White Men Can't Jump;4;Comedy|Drama
+8;Terrifier;3;Horror|Thriller
+8;Grumpier Old Men ;4;Comedy|Romance
+8;White Men Can't Jump;5;Comedy|Drama
+9;After;3;Drama|Romance|Thriller
+9;All My Friends Hate Me;2;Comedy|Horror
+10;Now You See Me;5;Crime|Mystery|Thriller
+11;Zombieland;3;Action|Comedy|Horror
+11;Terrifier;4;Horror|Thriller
+11;Pirates of the Caribbean: The Curse of the Black Pearl;5;Action|Adventure|Comedy|Fantasy
+12;After;3;Drama|Romance|Thriller
+13;Toy  Story ;4;Adventure|Animation|Children|Comedy|Fantasy
+13;Jumanji;5;Action|Adventure|Comedy|Fantasy
+14;Grumpier Old Men ;2;Comedy|Romance
+14;Zombieland;4;Action|Comedy|Horror
+15;Love Don't Cost a Thing;5;Drama|Romance
+16;White Men Can't Jump;3;Comedy|Drama
+16;Now You See Me;4;Crime|Mystery|Thriller
+17;Suicide Squad: Hell to Pay;2;Action|Animation
+17;Terrifier;5;Horror|Thriller
+18;All My Friends Hate Me;3;Comedy|Horror
+18;After;5;Drama|Romance|Thriller
+18;Jumanji;4;Action|Adventure|Comedy|Fantasy
+19;The Kissing Booth;3;Comedy|Romance
+19;Love Don't Cost a Thing;4;Drama|Romance
+20;Terrifier;4;Horror|Thriller
+20;Zombieland;5;Action|Comedy|Horror
