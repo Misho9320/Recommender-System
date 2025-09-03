@@ -68,3 +68,13 @@ python main.py
    * Recommends movies similar to those the user rated highly (rating ≥ 4).
 
 **Note:** CBF may not recommend movies if the user has not rated any movies highly, as seen with some users in te
+
+---
+
+## Results
+
+1.<img width="1800" height="192" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/bbb5fcc7-2ead-4d34-9d9f-e246b43eb1d6" />
+
+2.<img width="1800" height="192" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/7f0da5d9-4697-4e28-b22a-d3f106af4f62" />
+
+3.<img width="1799" height="192" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/322c8d1f-00a9-4708-92c5-0bd659285f4d" />
