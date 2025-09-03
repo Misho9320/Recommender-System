@@ -45,7 +45,7 @@ Place the dataset movies.csv in the same directory as the script.
 
 Run the script:
 
-python script.py
+python main.py
 
 
 Enter a user_id when prompted to get movie recommendations.
@@ -102,5 +102,6 @@ User 9
 Conclusion
 
 The system demonstrates two complementary recommendation approaches. CF is more reliable for users with sufficient ratings, while CBF allows recommendations based on movie features, which is useful for new items or when ratings are sparse.
+
 
 If you want, I can also write a short caption under each screenshot summarizing the recommendations, so it’s clear which movies were recommended by CF and CBF for each user. Do you want me to do that?
